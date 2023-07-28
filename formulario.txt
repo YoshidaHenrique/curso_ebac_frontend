@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários de Cadastro</title>
+</head>
 
+<body>
+    <h1>Formulário de cadastro</h1>
+    <form>
+        <label for="nome">Nome</label>
+        <input id="nome" type="nome"/>
+        <br/>
+        <label for="email">E-mail</label>
+        <input id="email" type="email"/>
+        <br/>
+        <label for="telefone">Telefone</label>
+        <input id="telefone" type="telefone"/>
+        <br/>
+        <button type="submit">
+            Cadastrar
+        </button>
+    </body>
+
+</html>
