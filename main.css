@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;  /* Escolha um valor adequado para o máximo desejado */
+    margin: 0 auto;    /* Adiciona margem automática nas laterais para centralizar */
+}
+
+h1,
+h2,
+input,
+button {
+    display: block;
+    margin: 6px 0;  /* Ajuste aqui para controlar a margem superior e inferior */
+    height: 32px;
+    width: 100%;
+
+}
+
+h1 {
+    margin-top: 24px;
+}
+
+button {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: rgb(84, 163, 84);
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(62, 138, 62);
+}
+
+.success-message {
+    font-size: 16px;
+    background-color: rgb(62, 138, 62);
+    color: #fff;
+    margin-bottom: 8px;
+    display: none;
+    padding: 6px;
+}
+
+.error-message {
+    font-size: 16px;
+    background-color: rgb(241, 40, 13);
+    color: #fff;
+    margin-bottom: 8px;
+    display: none;
+    padding: 6px;
+}
